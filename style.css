@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+.logo {
+    height: 100px;
+    width: 100px;
+}
+ul {
+    list-style-type: none;
+}
+a, .content-text{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb
+}
+.header-links ul{
+    display: flex;
+    gap: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.content-img {
+    height: 300px;
+    width: auto;
+}
+.first-sec {
+    background-color: #1f2937;
+    padding: 20px;
+}
+.first-sec h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+.content-info {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.second-sec h1{
+    font-size: 38px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding-top: 30px;
+}
+.card img {
+    height: 250px;
+    width: 250px;
+    border-radius: 32px;
+    border: 2px solid darkblue;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 3rem 1rem;
+}
+.card {
+    width: 260px;
+}
+.button {
+    width: 100px;
+    padding: 0.5rem;
+    font-size: 20px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 15px;
+}
+.third-sec {
+    padding: 20px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.review{
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin: auto;
+    width: 1000px;
+    padding: 20px;
+}
+.reviewer {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: auto;
+}
+.third-sec h1 {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+.forth-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.buy-option {
+    display: flex;
+    background-color: #3882f6;
+    margin: auto;
+    padding: 50px;
+    gap: 20px;
+    border-radius: 32px;
+}
+.button-two button{
+    width: 100px;
+    padding: 0.5rem;
+    font-size: 20px;
+
+}
+.button-info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.main-line {
+    font-weight: bold;
+    font-size: 25px;
+}
+.last-section {
+    display: flex;
+    background-color: #1f2937; 
+    color: white
+}
+.footer {
+    margin: auto;
+    padding: 30px;
+    font-weight: bold;
+    size: 20px;
+}
+.card p {
+    text-align: center;
+}
